@@ -1,0 +1,34 @@
+{
+  "league": {
+    "id": "example-league",
+    "name": "Example Amateur League",
+    "season": "Example 2030",
+    "category": "Example Open Division",
+    "contactEmail": "league@example.com"
+  },
+  "teams": [
+    { "id": "team-a", "name": "Example Team A" },
+    { "id": "team-b", "name": "Example Team B" },
+    { "id": "team-c", "name": "Example Team C" },
+    { "id": "team-d", "name": "Example Team D" }
+  ],
+  "fixtures": [
+    { "id": "match-01", "round": 1, "homeTeam": "team-a", "awayTeam": "team-d" },
+    { "id": "match-02", "round": 1, "homeTeam": "team-b", "awayTeam": "team-c" },
+    { "id": "match-03", "round": 2, "homeTeam": "team-c", "awayTeam": "team-a" },
+    { "id": "match-04", "round": 2, "homeTeam": "team-d", "awayTeam": "team-b" },
+    { "id": "match-05", "round": 3, "homeTeam": "team-a", "awayTeam": "team-b" },
+    { "id": "match-06", "round": 3, "homeTeam": "team-c", "awayTeam": "team-d" }
+  ],
+  "matchReports": [
+    {
+      "fixtureId": "match-01",
+      "referee": "Example Referee",
+      "score": { "home": 2, "away": 1 },
+      "incidents": [
+        { "minute": 54, "teamId": "team-d", "type": "yellowCard" }
+      ],
+      "notes": "Example note. The match ended after regulation time."
+    }
+  ]
+}
