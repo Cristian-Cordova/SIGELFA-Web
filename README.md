@@ -1,4 +1,4 @@
-# SIGELFA Web · Portfolio case study
+# SIGELFA Web
 
 SIGELFA Web was a team-built academic project for managing amateur football leagues. It brought league administration, round-robin scheduling, and referee match reports into one workflow using Flask, SQL Server, and vanilla JavaScript.
 
